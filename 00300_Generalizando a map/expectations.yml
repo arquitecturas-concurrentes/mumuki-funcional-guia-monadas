@@ -1,0 +1,11 @@
+expectations:
+- inspection: HasBinding
+  binding: mapValidated
+- inspection: HasBinding
+  binding: valorMensual
+- inspection: HasBinding
+  binding: longitudTicker
+- inspection: HasUsage:mapValidated
+  binding: longitudTicker
+- inspection: HasUsage:mapValidated
+  binding: valorMensual
