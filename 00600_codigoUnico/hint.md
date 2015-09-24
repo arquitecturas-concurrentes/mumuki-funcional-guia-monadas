@@ -1,0 +1,1 @@
+Intuitivamente podríamos pensar que hay que contemplar 9 casos, pero son menos: pensá por ejemplo que si el primero es inválido, no es necesario analizar los demás.

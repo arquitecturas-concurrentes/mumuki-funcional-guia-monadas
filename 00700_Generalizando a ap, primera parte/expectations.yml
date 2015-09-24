@@ -1,0 +1,7 @@
+expectations:
+- binding: codigoUnico
+  inspection: HasBinding
+- binding: aplicarBinarioValidated
+  inspection: HasBinding
+- binding: codigoUnico
+  inspection: HasUsage:aplicarBinarioValidated
