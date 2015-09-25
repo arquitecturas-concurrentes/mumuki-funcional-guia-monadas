@@ -1,0 +1,1 @@
+¿Aún no se ve que `aplicarValidated` generaliza a `aplicarBinarioValidated`? No te preocupes, ¡en breve lo demostraremos!
