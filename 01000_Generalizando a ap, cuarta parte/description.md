@@ -17,5 +17,5 @@ Dado que implementar una función `<*>` para algún tipo de dato es algo común,
 
 Un functor aplicativo es simplemente un functor, que se puede combinar mediante `<*>`. Y de igual forma, si se puede definir un `<*>` y `fmap` para un tipo de dato, entonces es un functor aplicativo. (¡Bah, casi, resolvé este ejercicio primero!)
 
-> Hacé a `Validated` instancia de `Applicative`. Vas a tener que definir dos métodos: `<*>` y `pure`, el primero definilo igual a `aplicarValidated`  , y el segundo definilo asi: `pure x = Valid x`. Podés asumir que `aplicarValidated` ya existe
+> Hacé a `Validated` instancia de `Applicative`. Vas a tener que definir dos métodos: `<*>` y `pure`, el primero definilo igual a `aplicarValidated`  , y el segundo definilo asi: `pure x = Valid x`. Podés asumir que `aplicarValidated` ya existe. Y usando esta nueva interfaz, reescribí a `codigoUnico`
 
