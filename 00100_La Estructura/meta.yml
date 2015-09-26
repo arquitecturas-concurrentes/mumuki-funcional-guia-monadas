@@ -2,6 +2,5 @@ tags:
 - data
 - tiposalgebraicos
 - functional
-- functor
+- validated
 locale: es
-layout: no_editor
