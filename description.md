@@ -7,6 +7,7 @@ Entender los patrones que siguen estos tipos de datos es útil porque nos ayuda 
 * comprender código escrito utilizando estas abstracciones genéricas
 
 Además, los patrones funcionales son más rigurosos que por ejemplo los patrones de objetos, dado que no sólo nos proveen
+
 * una terminlogía
 * una forma estándar de resolver problemas comunes
 
