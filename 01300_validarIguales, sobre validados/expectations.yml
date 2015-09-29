@@ -1,0 +1,7 @@
+expectations:
+- binding: validarIgualesValidated
+  inspection: HasBinding
+- binding: validarIgualesValidated
+  inspection: HasUsage:validarIguales
+- binding: validarIgualesValidated
+  inspection: Not:HasUsage:<*>
