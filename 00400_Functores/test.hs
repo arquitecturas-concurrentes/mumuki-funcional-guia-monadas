@@ -1,3 +1,3 @@
 describe "noop" $ do
   it "noop" $ do
-    return ()
+    True `shouldBe` True

@@ -6,3 +6,7 @@ Te dejamos las siguientes funciones ya hechas para usar en tus pruebas:
 inversa 0 = Nothing
 inversa x = 1 / x
 ```
+
+```haskell
+menoresA n = [0..n]
+```
