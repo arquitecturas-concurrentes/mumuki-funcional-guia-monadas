@@ -9,7 +9,7 @@ Para eso, implementaremos una función `codigoUnico`, de tipo `Validated String 
 Valid "INTC:458140100"
 
 > codigoUnico (Doubtful "INTD" "la D podria ser una C") (Doubtful "458140100" "estaba cansado")
-Valid "INTD:458140100" "la D podria ser una C"
+Doubtful "INTD:458140100" "la D podria ser una C"
 
 > codigoUnico (Valid "INTC") (Invalid "cusip ilegible")
 Invalid "cusip ilegible"
