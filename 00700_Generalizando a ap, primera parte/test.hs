@@ -13,4 +13,4 @@ describe "aplicarBinarioValidated" $ do
     aplicarBinarioValidated (++) (Doubtful "INTC" "??") (Invalid "cusip ilegible") `shouldBe` Invalid "cusip ilegible"
 
   it "aplicarBinarioValidated (++) (Invalid \"??\") (Invalid \"cusip ilegible\") == Invalid \"??\"" $ do
-    aplicarBinarioValidated (++) (Invalid "??") (Invalid "cusip ilegible") `shouldBe` Invalid "??"
+    aplicarBinarioValidated (++) (Invalid "??" :: Validated String) (Invalid "cusip ilegible" :: Validated String) `shouldBe` Invalid "??"
