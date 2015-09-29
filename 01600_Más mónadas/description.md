@@ -4,7 +4,7 @@ Te dejamos las siguientes funciones ya hechas para usar en tus pruebas:
 
 ```haskell
 inversa 0 = Nothing
-inversa x = 1 / x
+inversa x = Just (1 / x)
 ```
 
 ```haskell
