@@ -15,8 +15,8 @@ describe "codigoUnico" $ do
   it "codigoUnico (Invalid \"??\") (Invalid \"cusip ilegible\") == Invalid \"??\"" $ do
     codigoUnico (Invalid "??") (Invalid "cusip ilegible") `shouldBe` Invalid "??"
 
-  it "codigoUnico (Doubtful \"INTD\" \"la D podria ser una C\") (Valid \"C1\") == Doubtful \"INTD:C1\" $ do
+  it "codigoUnico (Doubtful \"INTD\" \"la D podria ser una C\") (Valid \"C1\") == Doubtful \"INTD:C1\" \"la D podria ser una C\" $ do
     codigoUnico (Doubtful "INTD" "la D podria ser una C") (Valid "C1") `shouldBe` Doubtful "INTD:C1" "la D podria ser una C"
 
-  it "codigoUnico (Valid \"A2\") (Doubtful \"INTD\" \"la A podria ser una H\") == Doubtful \"A2:INTD\" $ do
-    codigoUnico (Valid "A2") (Doubtful "INTD" "la A podria ser una H") `shouldBe` Doubtful "A2:INTD" "la A podria ser una H"    
+  it "codigoUnico (Valid \"A2\") (Doubtful \"INTD\" \"la A podria ser una H\") == Doubtful \"A2:INTD\" \"la A podria ser una H\" $ do
+    codigoUnico (Valid "A2") (Doubtful "INTD" "la A podria ser una H") `shouldBe` Doubtful "A2:INTD" "la A podria ser una H"
