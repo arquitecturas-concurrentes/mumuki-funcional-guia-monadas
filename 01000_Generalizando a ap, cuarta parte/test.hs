@@ -6,8 +6,8 @@ describe "Validated" $ do
   it "codigoUnico (Valid \"INTC\") (Valid \"458140100\") == Valid \"INTC458140100\"" $ do
     codigoUnico (Valid "INTC") (Valid "458140100") `shouldBe` Valid "INTC458140100"
 
-  it "codigoUnico (Doubtful \"INTD\" \"la D podria ser una C\") (Doubtful \"458140100\" \"estaba cansado\") == Valid \"INTD458140100\" \"la D podria ser una C\"" $ do
-    codigoUnico (Doubtful "INTD" "la D podria ser una C") (Doubtful "458140100" "estaba cansado") `shouldBe` Valid "INTD458140100" "la D podria ser una C"
+  it "codigoUnico (Doubtful \"INTD\" \"la D podria ser una C\") (Doubtful \"458140100\" \"estaba cansado\") == Doubtful \"INTD:458140100\" \"la D podria ser una C\"" $ do
+    codigoUnico (Doubtful "INTD" "la D podria ser una C") (Doubtful "458140100" "estaba cansado") `shouldBe` Doubtful "INTD:458140100" "la D podria ser una C"
 
   it "codigoUnico (Valid \"INTC\") (Invalid \"cusip ilegible\") == Invalid \"cusip ilegible\"" $ do
     codigoUnico (Valid "INTC") (Invalid "cusip ilegible") `shouldBe` Invalid "cusip ilegible"
