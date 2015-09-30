@@ -13,7 +13,7 @@ describe "aplicarValidated" $ do
     aplicarValidated (Invalid "ups" :: Validated (a -> String)) (Invalid "fuu") `shouldBe` (Invalid "ups")
 
   it "aplicarValidated (Doubtful (+3) \"ups\") (Invalid \"foo\") == (Invalid \"foo\")" $ do
-    aplicarValidated (Doubtful (+3) "ups") (Invalid "fuu") `shouldBe` (Invalid "foo")
+    aplicarValidated (Doubtful (+3) "ups") (Invalid "foo") `shouldBe` (Invalid "foo")
 
   it "aplicarValidated (Doubtful even \"ups\") (Doubtful 9 \"fuu\") == (Doubtful False \"ups\")" $ do
     aplicarValidated (Doubtful even "ups") (Doubtful 9 "fuu") `shouldBe` (Doubtful False "ups")
