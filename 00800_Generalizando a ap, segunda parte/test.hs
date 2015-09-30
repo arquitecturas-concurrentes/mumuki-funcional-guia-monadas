@@ -7,10 +7,10 @@ describe "aplicarValidated" $ do
     aplicarValidated (Valid even) (Valid 3) `shouldBe` (Valid False)
 
   it "aplicarValidated (Invalid \"bad function\") (Valid 3) == (Invalid \"bad function\")" $ do
-    aplicarValidated (Invalid "bad function") (Valid 3) `shouldBe` (Invalid "bad function")
+    aplicarValidated (Invalid "bad function" :: Validated (a -> String)) (Valid 3) `shouldBe` (Invalid "bad function")
 
   it "aplicarValidated (Invalid \"ups\") (Invalid \"foo\") == (Invalid \"ups\")" $ do
-    aplicarValidated (Invalid "ups") (Invalid "fuu") `shouldBe` (Invalid "ups")
+    aplicarValidated (Invalid "ups" :: Validated (a -> String)) (Invalid "fuu") `shouldBe` (Invalid "ups")
 
   it "aplicarValidated (Doubtful (+3) \"ups\") (Invalid \"foo\") == (Invalid \"foo\")" $ do
     aplicarValidated (Doubtful (+3) "ups") (Invalid "fuu") `shouldBe` (Invalid "foo")
