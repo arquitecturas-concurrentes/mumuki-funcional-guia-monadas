@@ -15,4 +15,4 @@ describe "validarIgualesValidated" $ do
     validarIgualesValidated (Doubtful 5 "ups") (Valid 5) `shouldBe` Doubtful 5 "ups"
 
   it "validarIgualesValidated (Invalid \"ups\") (Invalid \"pum\") == Invalid \"ups\"" $ do
-    validarIgualesValidated (Invalid "ups") (Invalid "pum") `shouldBe` Invalid "ups"
+    validarIgualesValidated (Invalid "ups" :: Validated String) (Invalid "pum") `shouldBe` Invalid "ups"
