@@ -3,7 +3,7 @@ describe "Monad Validated" $ do
   it "(Valid 4) >>= (validarIguales 4) == Valid 4"  $ do
     (Valid 4) >>= (validarIguales 4) `shouldBe` Valid 4
 
-  it "(Valid True) >>= (\x -> Valid (not x)) == Valid False"  $ do
+  it "(Valid True) >>= (\\x -> Valid (not x)) == Valid False"  $ do
     (Valid True) >>= (\x -> Valid (not x)) (validarIguales 4) `shouldBe` Valid False
 
   it "(Valid 9) >>= (validarIguales 4) == Invalid \"4 /= 9\""  $ do
