@@ -3,8 +3,8 @@ describe "Validated" $ do
   it "(*) <$> Valid 5 <*> Valid 9 == Valid 45" $ do
     (*) <$> Valid 5 <*> Valid 9 `shouldBe` Valid 45
 
-  it "codigoUnico (Valid \"INTC\") (Valid \"458140100\") == Valid \"INTC458140100\"" $ do
-    codigoUnico (Valid "INTC") (Valid "458140100") `shouldBe` Valid "INTC458140100"
+  it "codigoUnico (Valid \"INTC\") (Valid \"458140100\") == Valid \"INTC:458140100\"" $ do
+    codigoUnico (Valid "INTC") (Valid "458140100") `shouldBe` Valid "INTC:458140100"
 
   it "codigoUnico (Doubtful \"INTD\" \"la D podria ser una C\") (Doubtful \"458140100\" \"estaba cansado\") == Doubtful \"INTD:458140100\" \"la D podria ser una C\"" $ do
     codigoUnico (Doubtful "INTD" "la D podria ser una C") (Doubtful "458140100" "estaba cansado") `shouldBe` Doubtful "INTD:458140100" "la D podria ser una C"
