@@ -1,5 +1,6 @@
 name: Funcional Guía Mónadas
 locale: es
 language: haskell
+learning: true
 original_id_format: '%05d'
 
