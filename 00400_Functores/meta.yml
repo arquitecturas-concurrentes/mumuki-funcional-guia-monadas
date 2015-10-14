@@ -4,4 +4,4 @@ tags:
 - functional
 - functor
 locale: es
-layout: no_editor
+type: playground
