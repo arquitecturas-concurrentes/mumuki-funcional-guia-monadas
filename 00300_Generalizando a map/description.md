@@ -3,8 +3,10 @@ Ahora nos pidieron otra operación: que dado un código en la bolsa de una empre
 Por ejemplo:
 
 ```haskell
-longitudTicker (Valid "AAPL")
+ム longitudTicker (Valid "AAPL")
 Valid 4
+ム longitudTicker (Invalid "no data")
+(Invalid "no data")
 ```
 
 El problema es que esta lógica de modificar el valor contenido de un `Validated` ya la implementamos con valorMensual, y no queremos repetir lógica.
