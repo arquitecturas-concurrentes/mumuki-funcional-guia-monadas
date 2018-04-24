@@ -1,3 +1,4 @@
+---
 expectations:
 - binding: codigoUnico
   inspection: HasBinding
@@ -5,3 +6,5 @@ expectations:
   inspection: HasBinding
 - binding: codigoUnico
   inspection: HasUsage:aplicarBinarioValidated
+- binding: "*"
+  inspection: Except:HasRedundantParameter

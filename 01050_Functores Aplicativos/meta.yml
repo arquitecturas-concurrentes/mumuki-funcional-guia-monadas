@@ -1,8 +1,14 @@
+---
 tags:
 - functional
 - functor
 - aplicativo
 - listas
 - maybe
-locale: es
+layout: input_right
+editor: code
 type: playground
+extra_visible: false
+teacher_info: ''
+manual_evaluation: false
+choices: []

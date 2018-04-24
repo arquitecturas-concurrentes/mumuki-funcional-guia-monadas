@@ -1,3 +1,4 @@
+---
 expectations:
-- inspection: HasBinding
-  binding: bindValidated
+- binding: bindValidated
+  inspection: HasBinding

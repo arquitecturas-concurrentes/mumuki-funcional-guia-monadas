@@ -11,6 +11,6 @@ Además, los patrones funcionales son más rigurosos que por ejemplo los patrone
 * una terminlogía
 * una forma estándar de resolver problemas comunes
 
-Sino también leyes que se deben cumplir para asegurar que que tu tipo de dato está implementado de forma consistente.
+Sino también leyes que se deben cumplir para asegurar que tu tipo de dato está implementado de forma consistente.
 
 En esta guía vamos a presentarte tres patrones funcionales comunes y sus leyes: functores, functores aplicativos, y mónadas.

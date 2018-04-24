@@ -1,3 +1,4 @@
+---
 expectations:
-- inspection: HasBinding
-  binding: valorMensual
+- binding: valorMensual
+  inspection: HasBinding

@@ -1,3 +1,4 @@
+---
 expectations:
 - binding: validarIguales
   inspection: HasBinding

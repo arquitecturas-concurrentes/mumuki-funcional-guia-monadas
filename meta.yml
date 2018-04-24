@@ -1,6 +1,26 @@
-name: Funcional Guía Mónadas
+---
+name: Mónadas
 locale: es
+type: learning
+beta: false
+teacher_info: ''
 language: haskell
-learning: true
-original_id_format: '%05d'
-
+id_format: "%05d"
+order:
+- 100
+- 200
+- 300
+- 400
+- 500
+- 600
+- 700
+- 800
+- 900
+- 1000
+- 1050
+- 1100
+- 1200
+- 1300
+- 1400
+- 1500
+- 1600

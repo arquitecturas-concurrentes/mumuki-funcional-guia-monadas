@@ -1,4 +1,4 @@
-Ahora que nuestro Validated es tanto un functor como un functor aplicativo, podemos escribir código más genérico, y que además, utilice herramientas estándar.  Eso es bueno :thumb_up:.
+Ahora que nuestro Validated es tanto un functor como un functor aplicativo, podemos escribir código más genérico, y que además, utilice herramientas estándar.  Eso es bueno :thumbsup:.
 
 Pero aún podemos hacerlo mejor. Se incorpora otro requermiento: calcular un coeficiente `h` que tiene la siguiente fórmula:
 

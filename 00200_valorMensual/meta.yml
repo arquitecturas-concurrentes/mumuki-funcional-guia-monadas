@@ -1,7 +1,13 @@
+---
 tags:
 - data
 - tiposalgebraicos
 - functional
 - validated
 - functor
-locale: es
+layout: input_right
+editor: code
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices: []
