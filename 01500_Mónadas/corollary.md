@@ -4,7 +4,7 @@ Ahora observá lo siguiente: aprovechando que `>>=` es una funcíon infija, si h
 
 ```haskell
 validarIgualesValidated :: Validated a -> Validated a -> Validated a
-validarIgualesValidated x y = v1 >>= \v2 >>= validarIguales v1 v2
+validarIgualesValidated x y = x >>= \vx -> y >>= \vy -> validarIguales vx vy
 ```
 
 Eso nos permite extraer el valor del primer Validated `x`, luego el de `y`, compararlos y finamente hacer aplicar `aplicarValidated`. ¿Simple no?
