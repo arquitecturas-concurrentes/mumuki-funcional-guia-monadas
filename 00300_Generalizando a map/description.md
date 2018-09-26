@@ -1,4 +1,4 @@
-Ahora nos pidieron otra operación: que dado un código en la bolsa de una empresa, averiguemos su longitud (la cual la usaremos en validaciones posteriores).
+Ahora nos pidieron otra operación: que dado un código en la bolsa de una empresa, averigüemos su longitud (la cual la usaremos en validaciones posteriores).
 
 Por ejemplo:
 
