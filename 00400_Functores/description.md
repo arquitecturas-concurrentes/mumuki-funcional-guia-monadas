@@ -1,4 +1,4 @@
-A decir verdad la idea de mapear es bastante genérica, y está muy asociada al concepto de contenedor: si tengo un contenedor, no importa cómo sea éste o que contenga, siempre puedo crear un contenedor nuevo que cambie el valor contenido.
+A decir verdad la idea de mapear es bastante genérica, y está muy asociada al concepto de contenedor: si tengo un contenedor, no importa cómo sea este o qué contenga, siempre puedo crear un contenedor nuevo que cambie el valor contenido.
 
 El nombre técnico para contenedor es _functor_: si algo es _"mapeable"_, entonces es un functor, y si es un functor, es mapeable.
 
