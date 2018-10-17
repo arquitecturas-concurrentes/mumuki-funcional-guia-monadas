@@ -1,4 +1,4 @@
-Pheeew, costó implementar `codigoUnico`, ¿no?. Probablemente no querramos volver a desarrollar alguna operación binaria entre `Validated`s desde cero. :astonished::gun:
+Pheeew, costó implementar `codigoUnico`, ¿no?. Probablemente no queramos volver a desarrollar alguna operación binaria entre `Validated`s desde cero. :astonished::gun:
 
 Así que antes de continuar, la vamos a generalizar: `aplicarBinarioValidated`. Esta será una función que tome una operación binaria, y dos valores validados, y los combine.
 
