@@ -1,14 +1,10 @@
 ---
-tags:
-- data
-- tiposalgebraicos
-- functional
-- functor
+locale: es
+tags: []
 layout: input_bottom
-editor: code
+editor: 0
 type: playground
 extra_visible: false
-teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Functores

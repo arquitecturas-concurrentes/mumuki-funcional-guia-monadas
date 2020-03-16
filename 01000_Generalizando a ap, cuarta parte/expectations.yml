@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: codigoUnico
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: codigoUnico
   inspection: HasBinding
-- binding: codigoUnico
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: codigoUnico
   inspection: HasUsage:<*>

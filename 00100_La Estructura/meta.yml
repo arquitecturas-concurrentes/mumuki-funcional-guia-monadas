@@ -1,9 +1,6 @@
 ---
-tags:
-- data
-- tiposalgebraicos
-- functional
-- validated
+locale: es
+tags: []
 layout: input_right
 editor: code
 type: problem

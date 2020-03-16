@@ -3,7 +3,6 @@ name: Mónadas
 locale: es
 type: learning
 beta: false
-teacher_info: ''
 language: haskell
 id_format: "%05d"
 order:
@@ -24,3 +23,4 @@ order:
 - 1400
 - 1500
 - 1600
+private: false

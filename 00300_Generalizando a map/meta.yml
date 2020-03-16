@@ -1,14 +1,11 @@
 ---
-tags:
-- data
-- tiposalgebraicos
-- functional
-- functor
-- map
+locale: es
+tags: []
 layout: input_right
 editor: code
 type: problem
 extra_visible: true
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Generalizando a map

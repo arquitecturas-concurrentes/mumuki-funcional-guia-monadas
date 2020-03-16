@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: bindValidated
-  inspection: HasBinding
+  binding: "*"
+  inspection: Except:HasRedundantParameter

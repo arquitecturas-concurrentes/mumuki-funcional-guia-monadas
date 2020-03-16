@@ -1,12 +1,17 @@
 ---
 expectations:
-- binding: mapValidated
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mapValidated
   inspection: HasBinding
-- binding: valorMensual
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: valorMensual
   inspection: HasBinding
-- binding: longitudTicker
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: longitudTicker
   inspection: HasBinding
-- binding: longitudTicker
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: longitudTicker
   inspection: HasUsage:mapValidated
-- binding: valorMensual
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: valorMensual
   inspection: HasUsage:mapValidated

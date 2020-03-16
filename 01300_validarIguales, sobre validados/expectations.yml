@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: validarIgualesValidated
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: validarIgualesValidated
   inspection: HasBinding
-- binding: validarIgualesValidated
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: validarIgualesValidated
   inspection: HasUsage:validarIguales
-- binding: validarIgualesValidated
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: validarIgualesValidated
   inspection: Not:HasUsage:<*>

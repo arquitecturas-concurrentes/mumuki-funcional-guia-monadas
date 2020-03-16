@@ -1,10 +1,14 @@
 ---
 expectations:
-- binding: codigoUnico
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: codigoUnico
   inspection: HasBinding
-- binding: aplicarBinarioValidated
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: aplicarBinarioValidated
   inspection: HasBinding
-- binding: codigoUnico
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: codigoUnico
   inspection: HasUsage:aplicarBinarioValidated
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Except:HasRedundantParameter
